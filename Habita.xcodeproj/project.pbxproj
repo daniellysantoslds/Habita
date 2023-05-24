@@ -13,6 +13,7 @@
 		934835972A1E868500FEA301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934835962A1E868500FEA301 /* Preview Assets.xcassets */; };
 		934835A22A1EAB1200FEA301 /* BigNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835A12A1EAB1200FEA301 /* BigNormalButton.swift */; };
 		934835A52A1EBD0100FEA301 /* MediumNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835A42A1EBD0100FEA301 /* MediumNormalButton.swift */; };
+		934835A72A1EC24600FEA301 /* SmallNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835A62A1EC24600FEA301 /* SmallNormalButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		934835962A1E868500FEA301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		934835A12A1EAB1200FEA301 /* BigNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigNormalButton.swift; sourceTree = "<group>"; };
 		934835A42A1EBD0100FEA301 /* MediumNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumNormalButton.swift; sourceTree = "<group>"; };
+		934835A62A1EC24600FEA301 /* SmallNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallNormalButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				934835A12A1EAB1200FEA301 /* BigNormalButton.swift */,
 				934835A42A1EBD0100FEA301 /* MediumNormalButton.swift */,
+				934835A62A1EC24600FEA301 /* SmallNormalButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				934835922A1E868400FEA301 /* ContentView.swift in Sources */,
 				934835A52A1EBD0100FEA301 /* MediumNormalButton.swift in Sources */,
 				934835A22A1EAB1200FEA301 /* BigNormalButton.swift in Sources */,
+				934835A72A1EC24600FEA301 /* SmallNormalButton.swift in Sources */,
 				934835902A1E868400FEA301 /* HabitaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
