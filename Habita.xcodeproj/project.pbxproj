@@ -11,6 +11,7 @@
 		934835922A1E868400FEA301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835912A1E868400FEA301 /* ContentView.swift */; };
 		934835942A1E868500FEA301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934835932A1E868500FEA301 /* Assets.xcassets */; };
 		934835972A1E868500FEA301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934835962A1E868500FEA301 /* Preview Assets.xcassets */; };
+		934835A22A1EAB1200FEA301 /* BigNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835A12A1EAB1200FEA301 /* BigNormalButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		934835912A1E868400FEA301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		934835932A1E868500FEA301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		934835962A1E868500FEA301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		934835A12A1EAB1200FEA301 /* BigNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigNormalButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		9348358E2A1E868400FEA301 /* Habita */ = {
 			isa = PBXGroup;
 			children = (
+				934835A32A1EAB2600FEA301 /* Components */,
 				9348359F2A1E8CC600FEA301 /* ViewModel */,
 				9348359E2A1E8CC000FEA301 /* View */,
 				9348359D2A1E8CB500FEA301 /* Model */,
@@ -89,6 +92,22 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		934835A02A1EAAC900FEA301 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				934835A12A1EAB1200FEA301 /* BigNormalButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		934835A32A1EAB2600FEA301 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				934835A02A1EAAC900FEA301 /* Buttons */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				934835922A1E868400FEA301 /* ContentView.swift in Sources */,
+				934835A22A1EAB1200FEA301 /* BigNormalButton.swift in Sources */,
 				934835902A1E868400FEA301 /* HabitaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
