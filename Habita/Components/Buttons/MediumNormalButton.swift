@@ -1,5 +1,5 @@
 //
-//  BigNormalButtonComponent.swift
+//  MediumNormalButton.swift
 //  Habita
 //
 //  Created by Danielly Santos Lopes da Silva on 24/05/23.
@@ -7,11 +7,10 @@
 
 import SwiftUI
 
-struct BigNormalButton: View {
+struct MediumNormalButton: View {
     
-    let titleButton : String;
-    @State private var isHovered = false
-    
+    let titleButton: String;
+    @State private var IsHovered = false
     
     init(titleButton: String) {
         self.titleButton = titleButton
@@ -20,7 +19,6 @@ struct BigNormalButton: View {
     var body: some View {
         
         VStack {
-            
             Spacer()
             
             GeometryReader { geometry in
@@ -32,31 +30,27 @@ struct BigNormalButton: View {
                         .foregroundColor(Color("White-0"))
                         .fontWeight(.medium)
                         .font(.system(size: 15))
-                        .frame(width: UIScreen.main.bounds.size.width * 0.91, height: UIScreen.main.bounds.size.height * 0.08)
-                        .background(isHovered ? Color("Primary+1") : Color("Primary-0"))
+                        .frame(width: UIScreen.main.bounds.size.width * 0.43, height: UIScreen.main.bounds.size.height * 0.07 )
+                        .background(IsHovered ? Color("Primary+1") : Color("Primary-0"))
                         .cornerRadius(4)
                         .onTapGesture {
-                            withAnimation(.easeInOut(duration: 0.2)) {
-                                isHovered.toggle()
-                                
+                            withAnimation(.easeOut(duration: 0.2)) {
+                                IsHovered.toggle()
                             }
+                            
                         }
-                    
                 }
                 
-                Spacer()
             }
             
+            Spacer()
+            
         }
-        
     }
     
-    
-    
-    
-    struct BigNormalButtonComponent_Previews: PreviewProvider {
+    struct MediumNormalButton_Previews: PreviewProvider {
         static var previews: some View {
-            BigNormalButton(titleButton: "Normal")
+            MediumNormalButton(titleButton: "Médio")
         }
     }
 }

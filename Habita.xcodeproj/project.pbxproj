@@ -12,6 +12,7 @@
 		934835942A1E868500FEA301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934835932A1E868500FEA301 /* Assets.xcassets */; };
 		934835972A1E868500FEA301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934835962A1E868500FEA301 /* Preview Assets.xcassets */; };
 		934835A22A1EAB1200FEA301 /* BigNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835A12A1EAB1200FEA301 /* BigNormalButton.swift */; };
+		934835A52A1EBD0100FEA301 /* MediumNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835A42A1EBD0100FEA301 /* MediumNormalButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		934835932A1E868500FEA301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		934835962A1E868500FEA301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		934835A12A1EAB1200FEA301 /* BigNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigNormalButton.swift; sourceTree = "<group>"; };
+		934835A42A1EBD0100FEA301 /* MediumNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumNormalButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				934835A12A1EAB1200FEA301 /* BigNormalButton.swift */,
+				934835A42A1EBD0100FEA301 /* MediumNormalButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				934835922A1E868400FEA301 /* ContentView.swift in Sources */,
+				934835A52A1EBD0100FEA301 /* MediumNormalButton.swift in Sources */,
 				934835A22A1EAB1200FEA301 /* BigNormalButton.swift in Sources */,
 				934835902A1E868400FEA301 /* HabitaApp.swift in Sources */,
 			);
