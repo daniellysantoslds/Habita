@@ -51,6 +51,9 @@
 		9348358E2A1E868400FEA301 /* Habita */ = {
 			isa = PBXGroup;
 			children = (
+				9348359F2A1E8CC600FEA301 /* ViewModel */,
+				9348359E2A1E8CC000FEA301 /* View */,
+				9348359D2A1E8CB500FEA301 /* Model */,
 				9348358F2A1E868400FEA301 /* HabitaApp.swift */,
 				934835912A1E868400FEA301 /* ContentView.swift */,
 				934835932A1E868500FEA301 /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				934835962A1E868500FEA301 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9348359D2A1E8CB500FEA301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9348359E2A1E8CC000FEA301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9348359F2A1E8CC600FEA301 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
