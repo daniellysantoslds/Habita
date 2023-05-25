@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		932DB9F72A1FDB1000CA682E /* BigOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932DB9F62A1FDB1000CA682E /* BigOutlineButton.swift */; };
+		932DB9F92A1FE25F00CA682E /* MediumOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932DB9F82A1FE25F00CA682E /* MediumOutlineButton.swift */; };
 		934835902A1E868400FEA301 /* HabitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348358F2A1E868400FEA301 /* HabitaApp.swift */; };
 		934835922A1E868400FEA301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835912A1E868400FEA301 /* ContentView.swift */; };
 		934835942A1E868500FEA301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934835932A1E868500FEA301 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		932DB9F62A1FDB1000CA682E /* BigOutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigOutlineButton.swift; sourceTree = "<group>"; };
+		932DB9F82A1FE25F00CA682E /* MediumOutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumOutlineButton.swift; sourceTree = "<group>"; };
 		9348358C2A1E868400FEA301 /* Habita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9348358F2A1E868400FEA301 /* HabitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitaApp.swift; sourceTree = "<group>"; };
 		934835912A1E868400FEA301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				934835A42A1EBD0100FEA301 /* MediumNormalButton.swift */,
 				934835A62A1EC24600FEA301 /* SmallNormalButton.swift */,
 				932DB9F62A1FDB1000CA682E /* BigOutlineButton.swift */,
+				932DB9F82A1FE25F00CA682E /* MediumOutlineButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				934835922A1E868400FEA301 /* ContentView.swift in Sources */,
 				932DB9F72A1FDB1000CA682E /* BigOutlineButton.swift in Sources */,
 				934835A52A1EBD0100FEA301 /* MediumNormalButton.swift in Sources */,
+				932DB9F92A1FE25F00CA682E /* MediumOutlineButton.swift in Sources */,
 				934835A22A1EAB1200FEA301 /* BigNormalButton.swift in Sources */,
 				934835A72A1EC24600FEA301 /* SmallNormalButton.swift in Sources */,
 				934835902A1E868400FEA301 /* HabitaApp.swift in Sources */,
