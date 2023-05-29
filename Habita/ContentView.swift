@@ -16,7 +16,8 @@ struct ContentView: View {
             Text("Hello, world!")
             Image("search").foregroundColor(.pink)
             
-            
+            Image.calendarIcon()
+                .foregroundColor(.blue)
          
         }
         .padding()
