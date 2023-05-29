@@ -43,7 +43,7 @@ extension Image {
         Image(systemName: "circle.circle.fill")
     }
     
-    static func checklIcon() -> Image {
+    static func checkIcon() -> Image {
         Image(systemName: "square")
     }
     
