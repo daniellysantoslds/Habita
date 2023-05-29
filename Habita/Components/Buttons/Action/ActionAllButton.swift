@@ -7,20 +7,21 @@
 
 import SwiftUI
 
-struct RemoveButton: View {
+struct ActionAllButton: View {
     
     let iconButton: String;
     let titleButton: String;
+    let colorButton: String;
     
     var body: some View {
         
-        HStack {
+        HStack(spacing:4) {
             Image(systemName: iconButton)
-                .foregroundColor(Color("Gray-0"))
+                .foregroundColor(Color(colorButton))
             Text(titleButton)
                 .fontWeight(.medium)
                 .font(.system(size: 12))
-                .foregroundColor(Color("Gray-0"))
+                .foregroundColor(Color(colorButton))
             
         }
         
@@ -29,6 +30,6 @@ struct RemoveButton: View {
 
 struct RemoveButton_Previews: PreviewProvider {
     static var previews: some View {
-        RemoveButton(iconButton: "xmark", titleButton: "Remover dos favoritos")
+        ActionAllButton(iconButton: "xmark", titleButton: "Remover dos favoritos", colorButton: "Gray-0")
     }
 }
