@@ -17,6 +17,11 @@ extension Image {
         Image(systemName: "heart")
     }
     
+    static func favoriFillIcon() -> Image {
+        Image(systemName: "heart.fill")
+    }
+    
+    
     static func calendarIcon() -> Image {
         Image(systemName: "calendar")
     }

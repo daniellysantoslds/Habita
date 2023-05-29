@@ -17,7 +17,8 @@ struct ContentView: View {
             Image("search").foregroundColor(.pink)
             
             Image.calendarIcon()
-                .foregroundColor(.blue)
+                .resizable()
+                .frame(width: 40, height: 40)
          
         }
         .padding()
