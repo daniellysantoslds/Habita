@@ -19,6 +19,8 @@ struct ContentView: View {
             Image.calendarIcon()
                 .resizable()
                 .frame(width: 40, height: 40)
+            listOfValues(rentText: "Aluguel", condominiumText: "Condominio", iptuText: "IPTU", totalText: "Total", rentValue: "R$1.200", condominiumValue: "R$ 600", iptuValue: "R$ 300", totalValue: "R$ 2.100")
+            
          
         }
         .padding()
