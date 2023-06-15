@@ -14,7 +14,7 @@ struct FavoriteButton: View {
     var body: some View {
         ZStack {
             Circle()
-                .frame(width: 50, height: 50)
+                .frame(width: 40, height: 40)
                 .foregroundColor(Color("White-1"))
             Button {
                 isButtonEnabled.toggle()
@@ -23,12 +23,14 @@ struct FavoriteButton: View {
                     Image.favoriteIcon()
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 24, height: 24)
+                        .frame(width: 20, height: 20)
+                        .foregroundColor(Color("Black-1"))
                 } else {
                     Image.favoriFillIcon()
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 24, height: 24)
+                        .frame(width: 20, height: 20)
+                        .foregroundColor(Color("Secondary+1"))
                 }
                 
             }

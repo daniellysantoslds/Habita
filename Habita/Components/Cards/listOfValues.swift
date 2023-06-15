@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ListOfValues: View {
+struct listOfValues: View {
     
     let rentText: String;
     let condominiumText: String;
@@ -87,7 +87,7 @@ struct ListOfValues: View {
 
 struct listOfValues_Previews: PreviewProvider {
     static var previews: some View {
-        ListOfValues(rentText: "Aluguel", condominiumText: "Condomínio", iptuText: "IPTU", totalText: "Total", rentValue: "R$1.200", condominiumValue: "R$ 600", iptuValue: "R$ 300", totalValue: "R$ 2.100")
+        listOfValues(rentText: "Aluguel", condominiumText: "Condomínio", iptuText: "IPTU", totalText: "Total", rentValue: "R$1.200", condominiumValue: "R$ 600", iptuValue: "R$ 300", totalValue: "R$ 2.100")
         
     }
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct HabitaApp: App {
     var body: some Scene {
         WindowGroup {
-            BigNormalButton(titleButton: "oii")
+            ContentView()
         }
     }
 }

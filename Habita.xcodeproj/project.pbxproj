@@ -18,6 +18,7 @@
 		934835A52A1EBD0100FEA301 /* MediumNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835A42A1EBD0100FEA301 /* MediumNormalButton.swift */; };
 		934835A72A1EC24600FEA301 /* SmallNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835A62A1EC24600FEA301 /* SmallNormalButton.swift */; };
 		939600112A3B8BF60023337E /* AmentiesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600102A3B8BF60023337E /* AmentiesCard.swift */; };
+		939600132A3B9A640023337E /* MainProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600122A3B9A640023337E /* MainProperty.swift */; };
 		93D2871C2A265AEE00325143 /* radioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871B2A265AEE00325143 /* radioButton.swift */; };
 		93D2871F2A265CB600325143 /* ListOfValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871E2A265CB600325143 /* ListOfValues.swift */; };
 		93ED64FA2A250EF000E6C29C /* ActionAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED64F92A250EF000E6C29C /* ActionAllButton.swift */; };
@@ -39,6 +40,7 @@
 		934835A42A1EBD0100FEA301 /* MediumNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumNormalButton.swift; sourceTree = "<group>"; };
 		934835A62A1EC24600FEA301 /* SmallNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallNormalButton.swift; sourceTree = "<group>"; };
 		939600102A3B8BF60023337E /* AmentiesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmentiesCard.swift; sourceTree = "<group>"; };
+		939600122A3B9A640023337E /* MainProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProperty.swift; sourceTree = "<group>"; };
 		93D2871B2A265AEE00325143 /* radioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioButton.swift; sourceTree = "<group>"; };
 		93D2871E2A265CB600325143 /* ListOfValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfValues.swift; sourceTree = "<group>"; };
 		93ED64F92A250EF000E6C29C /* ActionAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionAllButton.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				93D2871E2A265CB600325143 /* ListOfValues.swift */,
+				939600122A3B9A640023337E /* MainProperty.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				93D2871F2A265CB600325143 /* ListOfValues.swift in Sources */,
 				934835A52A1EBD0100FEA301 /* MediumNormalButton.swift in Sources */,
 				932DB9F92A1FE25F00CA682E /* MediumOutlineButton.swift in Sources */,
+				939600132A3B9A640023337E /* MainProperty.swift in Sources */,
 				939600112A3B8BF60023337E /* AmentiesCard.swift in Sources */,
 				934835A22A1EAB1200FEA301 /* BigNormalButton.swift in Sources */,
 				934835A72A1EC24600FEA301 /* SmallNormalButton.swift in Sources */,
