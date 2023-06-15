@@ -83,8 +83,8 @@ extension Image {
         Image(systemName: "bed.double")
     }
     
-    static func keyIcon() -> Image {
-        Image(systemName: "key")
+    static func bathhubIcon() -> Image {
+        Image(systemName: "bathtub")
     }
     
     static func rulerIcon() -> Image {
