@@ -8,35 +8,65 @@
 import SwiftUI
 
 struct ProposalButton: View {
+    
+    let iconCancel: Image;
+    let titleCancelButton: String;
+    let colorCancelButton: String;
+    let iconAction: Image;
+    let titleActionButton: String;
+    let colorActionButton: String;
+    
+    init(iconCancel: Image, titleCancelButton: String, colorCancelButton: String, iconAction: Image, titleActionButton: String, colorActionButton: String ) {
+        self.iconCancel = iconCancel
+        self.titleCancelButton = titleCancelButton
+        self.colorCancelButton = colorCancelButton
+        self.iconAction = iconAction
+        self.titleActionButton = titleActionButton
+        self.colorActionButton = colorActionButton
+    }
+    
+    
+    
     var body: some View {
         
         VStack {
             Divider()
-            .padding(.bottom, 16)
+                .padding(.bottom, 16)
             HStack(spacing: 63) {
                 
-              
-                ActionAllButton(
-                    iconButton: Image.closeIcon(),
-                    titleButton: "Remover dos favoritos",
-                    colorButton: "Gray-0")
+                HStack(spacing: 4) {
+                    iconCancel
+                        .foregroundColor(Color(colorCancelButton))
+                    Text(titleCancelButton)
+                        .fontWeight(.medium)
+                        .font(.system(size: 12))
+                        .foregroundColor(Color(colorCancelButton))
+                }
                 .padding(.leading, 16)
                 
-                ActionAllButton(
-                    iconButton: Image.moneyIcon(),
-                    titleButton: "Fazer proposta",
-                    colorButton: "Primary-0")
+                HStack(spacing: 4) {
+                    iconAction
+                        .foregroundColor(Color(colorActionButton))
+                    Text(titleActionButton)
+                        .fontWeight(.medium)
+                        .font(.system(size: 14))
+                        .foregroundColor(Color(colorActionButton))
+                }
                 .padding(.trailing, 16)
+                
             }
-            .padding(.bottom, 16)
             Divider()
+                .padding(.top, 16)
         }
-      
+        
+        
     }
-}
-
-struct ProposalButton_Previews: PreviewProvider {
-    static var previews: some View {
-        ProposalButton()
+    
+    struct ProposalButton_Previews: PreviewProvider {
+        static var previews: some View {
+            ProposalButton(
+                iconCancel: Image.closeIcon(), titleCancelButton: "Remover dos favoritos", colorCancelButton: "Gray-0",
+                iconAction: Image.moneyIcon(), titleActionButton: "Fazer proposta", colorActionButton: "Primary-1")
+        }
     }
 }

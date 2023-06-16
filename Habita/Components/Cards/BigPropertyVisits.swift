@@ -46,6 +46,9 @@ struct BigPropertyVisits: View {
             
             VStack(alignment: .leading) {
                 
+                
+                
+                
                 Text(dateVisit + " às " + hourVisit)
                     .font(.system(size: 14, weight: .medium))
                     .foregroundColor(Color("Black+1"))
