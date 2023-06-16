@@ -35,7 +35,6 @@ struct BigMainProperty: View {
             ZStack {
                 Rectangle()
                     .foregroundColor(.white)
-                  //  .frame(width: 350, height: 330)
                     .frame(width: UIScreen.main.bounds.width * 0.91, height: UIScreen.main.bounds.height * 0.44)
                 
                 
@@ -43,7 +42,6 @@ struct BigMainProperty: View {
                     
                     Image("imov2")
                         .resizable()
-                       // .frame(width: 350, height: 185)
                         .frame(width: UIScreen.main.bounds.width * 0.91, height: UIScreen.main.bounds.height * 0.27)
                         .clipped()
                     

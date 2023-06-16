@@ -37,7 +37,7 @@ struct listOfValues: View {
                 
                 Text(rentText)
                     .font(.system(size: 12, weight: .regular))
-                Spacer(minLength: 237)
+                Spacer(minLength: 234)
                 Text(rentValue)
                     .font(.system(size: 12, weight: .regular))
             }
@@ -48,7 +48,7 @@ struct listOfValues: View {
             HStack {
                 Text(condominiumText)
                     .font(.system(size: 12, weight: .regular))
-                Spacer(minLength: 237)
+                Spacer(minLength: 234)
                 Text(condominiumValue)
                     .font(.system(size: 12, weight: .regular))
             }
@@ -60,7 +60,7 @@ struct listOfValues: View {
             HStack {
                 Text(iptuText)
                     .font(.system(size: 12, weight: .regular))
-                Spacer(minLength: 237)
+                Spacer(minLength: 234)
                 Text(iptuValue)
                     .font(.system(size: 12, weight: .regular))
             }
@@ -71,7 +71,7 @@ struct listOfValues: View {
             HStack {
                 Text(totalText)
                     .font(.system(size: 12, weight: .bold))
-                Spacer(minLength: 237)
+                Spacer(minLength: 234)
                 Text(totalValue)
                     .font(.system(size: 12, weight: .bold))
             }
