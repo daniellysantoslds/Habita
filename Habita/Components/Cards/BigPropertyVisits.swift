@@ -102,8 +102,7 @@ struct BigPropertyVisits: View {
                     .padding(.bottom, 16)
                 
             }
-            
-            
+        
         }
     }
 }

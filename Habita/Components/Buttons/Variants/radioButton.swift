@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct radioButton: View {
+struct RadioButton: View {
     
     @State private var isButtonEnabled = true
     
@@ -26,8 +26,8 @@ struct radioButton: View {
     }
 }
 
-struct radioButton_Previews: PreviewProvider {
+struct RadioButton_Previews: PreviewProvider {
     static var previews: some View {
-        radioButton()
+        RadioButton()
     }
 }
