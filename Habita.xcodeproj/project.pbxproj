@@ -21,6 +21,7 @@
 		939600132A3B9A640023337E /* BigMainProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600122A3B9A640023337E /* BigMainProperty.swift */; };
 		93D2871C2A265AEE00325143 /* radioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871B2A265AEE00325143 /* radioButton.swift */; };
 		93D2871F2A265CB600325143 /* ListOfValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871E2A265CB600325143 /* ListOfValues.swift */; };
+		93E49CF42A3C8E4200D2D7C2 /* BigPropertyVisits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisits.swift */; };
 		93ED64FA2A250EF000E6C29C /* ActionAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED64F92A250EF000E6C29C /* ActionAllButton.swift */; };
 		93ED64FC2A25138A00E6C29C /* IconsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED64FB2A25138A00E6C29C /* IconsModel.swift */; };
 		93ED65002A251EF000E6C29C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED64FF2A251EF000E6C29C /* FavoriteButton.swift */; };
@@ -43,6 +44,7 @@
 		939600122A3B9A640023337E /* BigMainProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMainProperty.swift; sourceTree = "<group>"; };
 		93D2871B2A265AEE00325143 /* radioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioButton.swift; sourceTree = "<group>"; };
 		93D2871E2A265CB600325143 /* ListOfValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfValues.swift; sourceTree = "<group>"; };
+		93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPropertyVisits.swift; sourceTree = "<group>"; };
 		93ED64F92A250EF000E6C29C /* ActionAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionAllButton.swift; sourceTree = "<group>"; };
 		93ED64FB2A25138A00E6C29C /* IconsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsModel.swift; sourceTree = "<group>"; };
 		93ED64FF2A251EF000E6C29C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			children = (
 				93D2871E2A265CB600325143 /* ListOfValues.swift */,
 				939600122A3B9A640023337E /* BigMainProperty.swift */,
+				93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisits.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				93ED65002A251EF000E6C29C /* FavoriteButton.swift in Sources */,
 				93ED65032A2527B200E6C29C /* CheckBoxButton.swift in Sources */,
 				93ED64FA2A250EF000E6C29C /* ActionAllButton.swift in Sources */,
+				93E49CF42A3C8E4200D2D7C2 /* BigPropertyVisits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
