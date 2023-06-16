@@ -22,11 +22,11 @@ struct ActionAllButton: View {
     var body: some View {
         
         HStack(spacing:4) {
-           iconButton
+            iconButton
                 .foregroundColor(Color(colorButton))
             Text(titleButton)
                 .fontWeight(.medium)
-                .font(.system(size: 12))
+                .font(.system(size: 14))
                 .foregroundColor(Color(colorButton))
             
         }

@@ -28,7 +28,7 @@ extension Image {
     
     //achar icone real desse icone
     static func moneyIcon() -> Image {
-        Image(systemName: "sunrise.circle.fill")
+        Image(systemName: "dollarsign.circle")
     }
     
     static func personIcon() -> Image {
