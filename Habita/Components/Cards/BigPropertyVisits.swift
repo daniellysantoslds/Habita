@@ -60,10 +60,19 @@ struct BigPropertyVisits: View {
                     .overlay(
                         FavoriteButton()
                             .padding(.top, 16)
-                            .padding(.trailing, 16)
+                            .padding(.trailing, 74)
                         , alignment: .topTrailing
                         
                     )
+                
+                    .overlay(
+                        ShareButton()
+                            .padding(.top, 16)
+                            .padding(.trailing, 18)
+                        , alignment: .topTrailing
+                        
+                    )
+                
                 
                 Text(addressDescription)
                     .font(.system(size: 12, weight: .regular))
@@ -102,7 +111,7 @@ struct BigPropertyVisits: View {
                     .padding(.bottom, 16)
                 
             }
-        
+            
         }
     }
 }
