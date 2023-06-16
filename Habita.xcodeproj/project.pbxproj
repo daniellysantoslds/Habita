@@ -10,6 +10,7 @@
 		932DB9F72A1FDB1000CA682E /* BigOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932DB9F62A1FDB1000CA682E /* BigOutlineButton.swift */; };
 		932DB9F92A1FE25F00CA682E /* MediumOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932DB9F82A1FE25F00CA682E /* MediumOutlineButton.swift */; };
 		932DB9FD2A1FEBC800CA682E /* SmallOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932DB9FC2A1FEBC800CA682E /* SmallOutlineButton.swift */; };
+		9347DD7D2A3CDA25002DD841 /* PropertyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347DD7C2A3CDA25002DD841 /* PropertyCode.swift */; };
 		934835902A1E868400FEA301 /* HabitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348358F2A1E868400FEA301 /* HabitaApp.swift */; };
 		934835922A1E868400FEA301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835912A1E868400FEA301 /* ContentView.swift */; };
 		934835942A1E868500FEA301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934835932A1E868500FEA301 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		932DB9F62A1FDB1000CA682E /* BigOutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigOutlineButton.swift; sourceTree = "<group>"; };
 		932DB9F82A1FE25F00CA682E /* MediumOutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumOutlineButton.swift; sourceTree = "<group>"; };
 		932DB9FC2A1FEBC800CA682E /* SmallOutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallOutlineButton.swift; sourceTree = "<group>"; };
+		9347DD7C2A3CDA25002DD841 /* PropertyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCode.swift; sourceTree = "<group>"; };
 		9348358C2A1E868400FEA301 /* Habita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9348358F2A1E868400FEA301 /* HabitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitaApp.swift; sourceTree = "<group>"; };
 		934835912A1E868400FEA301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				939600102A3B8BF60023337E /* AmentiesCard.swift */,
+				9347DD7C2A3CDA25002DD841 /* PropertyCode.swift */,
 			);
 			path = Informations;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				934835902A1E868400FEA301 /* HabitaApp.swift in Sources */,
 				93ED65002A251EF000E6C29C /* FavoriteButton.swift in Sources */,
 				93ED65032A2527B200E6C29C /* CheckBoxButton.swift in Sources */,
+				9347DD7D2A3CDA25002DD841 /* PropertyCode.swift in Sources */,
 				93ED64FA2A250EF000E6C29C /* ActionAllButton.swift in Sources */,
 				93E49CF42A3C8E4200D2D7C2 /* BigPropertyVisits.swift in Sources */,
 			);

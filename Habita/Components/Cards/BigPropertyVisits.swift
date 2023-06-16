@@ -46,9 +46,6 @@ struct BigPropertyVisits: View {
             
             VStack(alignment: .leading) {
                 
-                
-                
-                
                 Text(dateVisit + " às " + hourVisit)
                     .font(.system(size: 14, weight: .medium))
                     .foregroundColor(Color("Black+1"))
@@ -76,12 +73,19 @@ struct BigPropertyVisits: View {
                         
                     )
                 
+                HStack {
+                    Text(addressDescription)
+                        .font(.system(size: 12, weight: .regular))
+                        .padding(.top, 12)
+                        .padding(.leading, 8)
+                        .foregroundColor(Color("Black-1"))
+                    
+                    PropertyCode(codeID: "COD. 299")
+//                        .padding(.top, 12)
+                        .padding(.leading, 115)
+                  
+                }
                 
-                Text(addressDescription)
-                    .font(.system(size: 12, weight: .regular))
-                    .padding(.top, 12)
-                    .padding(.leading, 8)
-                    .foregroundColor(Color("Black-1"))
                 
                 HStack(spacing: 16) {
                     Text(spaceDescription)
@@ -112,6 +116,11 @@ struct BigPropertyVisits: View {
                     .padding(.leading, 8)
                     .padding(.top, 8)
                     .padding(.bottom, 16)
+                
+                
+                ProposalButton(
+                    iconCancel: Image.closeIcon(), titleCancelButton: "Remover dos favoritos", colorCancelButton: "Gray-0",
+                    iconAction: Image.moneyIcon(), titleActionButton: "Fazer proposta", colorActionButton: "Primary-1")
                 
             }
             

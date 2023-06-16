@@ -32,6 +32,8 @@ struct ProposalButton: View {
         VStack {
             Divider()
                 .padding(.bottom, 16)
+                .frame(width: 350)
+            
             HStack(spacing: 63) {
                 
                 HStack(spacing: 4) {
@@ -57,6 +59,7 @@ struct ProposalButton: View {
             }
             Divider()
                 .padding(.top, 16)
+                .frame(width: 350)
         }
         
         
