@@ -23,7 +23,7 @@
 		939600132A3B9A640023337E /* BigMainPropertyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600122A3B9A640023337E /* BigMainPropertyCard.swift */; };
 		93D2871C2A265AEE00325143 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871B2A265AEE00325143 /* RadioButton.swift */; };
 		93D2871F2A265CB600325143 /* ListOfValuesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871E2A265CB600325143 /* ListOfValuesCard.swift */; };
-		93E49CF42A3C8E4200D2D7C2 /* BigPropertyVisits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisits.swift */; };
+		93E49CF42A3C8E4200D2D7C2 /* BigPropertyVisitsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisitsCard.swift */; };
 		93E49CF62A3C929000D2D7C2 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E49CF52A3C929000D2D7C2 /* ShareButton.swift */; };
 		93E49CF82A3C955F00D2D7C2 /* ProposalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E49CF72A3C955F00D2D7C2 /* ProposalButton.swift */; };
 		93ED64FA2A250EF000E6C29C /* ActionAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED64F92A250EF000E6C29C /* ActionAllButton.swift */; };
@@ -50,7 +50,7 @@
 		939600122A3B9A640023337E /* BigMainPropertyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMainPropertyCard.swift; sourceTree = "<group>"; };
 		93D2871B2A265AEE00325143 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		93D2871E2A265CB600325143 /* ListOfValuesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfValuesCard.swift; sourceTree = "<group>"; };
-		93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPropertyVisits.swift; sourceTree = "<group>"; };
+		93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisitsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPropertyVisitsCard.swift; sourceTree = "<group>"; };
 		93E49CF52A3C929000D2D7C2 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
 		93E49CF72A3C955F00D2D7C2 /* ProposalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalButton.swift; sourceTree = "<group>"; };
 		93ED64F92A250EF000E6C29C /* ActionAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionAllButton.swift; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 			children = (
 				93D2871E2A265CB600325143 /* ListOfValuesCard.swift */,
 				939600122A3B9A640023337E /* BigMainPropertyCard.swift */,
-				93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisits.swift */,
+				93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisitsCard.swift */,
 				938E9ECF2A4B54FD00731AB9 /* BigPropertyFavorites.swift */,
 			);
 			path = Cards;
@@ -310,7 +310,7 @@
 				93ED65032A2527B200E6C29C /* CheckBoxButton.swift in Sources */,
 				9347DD7D2A3CDA25002DD841 /* PropertyCode.swift in Sources */,
 				93ED64FA2A250EF000E6C29C /* ActionAllButton.swift in Sources */,
-				93E49CF42A3C8E4200D2D7C2 /* BigPropertyVisits.swift in Sources */,
+				93E49CF42A3C8E4200D2D7C2 /* BigPropertyVisitsCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
