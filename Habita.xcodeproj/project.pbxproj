@@ -20,7 +20,7 @@
 		934835A72A1EC24600FEA301 /* SmallNormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934835A62A1EC24600FEA301 /* SmallNormalButton.swift */; };
 		938E9ED02A4B54FD00731AB9 /* BigPropertyFavoritesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938E9ECF2A4B54FD00731AB9 /* BigPropertyFavoritesCard.swift */; };
 		939600112A3B8BF60023337E /* AmentiesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600102A3B8BF60023337E /* AmentiesCard.swift */; };
-		939600132A3B9A640023337E /* BigMainPropertyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600122A3B9A640023337E /* BigMainPropertyCard.swift */; };
+		939600132A3B9A640023337E /* BigMainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600122A3B9A640023337E /* BigMainCard.swift */; };
 		93D2871C2A265AEE00325143 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871B2A265AEE00325143 /* RadioButton.swift */; };
 		93D2871F2A265CB600325143 /* ListOfValuesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871E2A265CB600325143 /* ListOfValuesCard.swift */; };
 		93E49CF42A3C8E4200D2D7C2 /* BigPropertyVisitsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisitsCard.swift */; };
@@ -47,7 +47,7 @@
 		934835A62A1EC24600FEA301 /* SmallNormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallNormalButton.swift; sourceTree = "<group>"; };
 		938E9ECF2A4B54FD00731AB9 /* BigPropertyFavoritesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPropertyFavoritesCard.swift; sourceTree = "<group>"; };
 		939600102A3B8BF60023337E /* AmentiesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmentiesCard.swift; sourceTree = "<group>"; };
-		939600122A3B9A640023337E /* BigMainPropertyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMainPropertyCard.swift; sourceTree = "<group>"; };
+		939600122A3B9A640023337E /* BigMainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMainCard.swift; sourceTree = "<group>"; };
 		93D2871B2A265AEE00325143 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		93D2871E2A265CB600325143 /* ListOfValuesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfValuesCard.swift; sourceTree = "<group>"; };
 		93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisitsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPropertyVisitsCard.swift; sourceTree = "<group>"; };
@@ -185,7 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				93D2871E2A265CB600325143 /* ListOfValuesCard.swift */,
-				939600122A3B9A640023337E /* BigMainPropertyCard.swift */,
+				939600122A3B9A640023337E /* BigMainCard.swift */,
 				93E49CF32A3C8E4200D2D7C2 /* BigPropertyVisitsCard.swift */,
 				938E9ECF2A4B54FD00731AB9 /* BigPropertyFavoritesCard.swift */,
 			);
@@ -299,7 +299,7 @@
 				934835A52A1EBD0100FEA301 /* MediumNormalButton.swift in Sources */,
 				932DB9F92A1FE25F00CA682E /* MediumOutlineButton.swift in Sources */,
 				938E9ED02A4B54FD00731AB9 /* BigPropertyFavoritesCard.swift in Sources */,
-				939600132A3B9A640023337E /* BigMainPropertyCard.swift in Sources */,
+				939600132A3B9A640023337E /* BigMainCard.swift in Sources */,
 				939600112A3B8BF60023337E /* AmentiesCard.swift in Sources */,
 				93E49CF62A3C929000D2D7C2 /* ShareButton.swift in Sources */,
 				934835A22A1EAB1200FEA301 /* BigNormalButton.swift in Sources */,

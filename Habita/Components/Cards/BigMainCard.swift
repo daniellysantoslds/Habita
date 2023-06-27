@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BigMainPropertyCard: View {
+struct BigMainCard: View {
     
     let imageProperty: Image;
     let addressDescription: String;
@@ -95,9 +95,9 @@ struct BigMainPropertyCard: View {
         }
     }
     
-    struct BigMainPropertyCard_Previews: PreviewProvider {
+    struct BigMainCard_Previews: PreviewProvider {
         static var previews: some View {
-            BigMainPropertyCard(imageProperty: Image("imov2"), addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
+            BigMainCard(imageProperty: Image("imov2"), addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
         }
     }
 }
