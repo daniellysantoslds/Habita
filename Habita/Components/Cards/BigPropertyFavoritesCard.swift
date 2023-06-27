@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BigPropertyFavorites: View {
+struct BigPropertyFavoritesCard: View {
     
     let imageProperty: Image;
     let addressDescription: String;
@@ -121,9 +121,9 @@ struct BigPropertyFavorites: View {
         }
     }
     
-    struct BigPropertyFavorites_Previews: PreviewProvider {
+    struct BigPropertyFavoritesCard_Previews: PreviewProvider {
         static var previews: some View {
-            BigPropertyFavorites(imageProperty: Image("imov2"), addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000,", dateVisit: "Quar., 20/04", hourVisit: "09:00")
+            BigPropertyFavoritesCard(imageProperty: Image("imov2"), addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000,", dateVisit: "Quar., 20/04", hourVisit: "09:00")
         }
     }
     
