@@ -23,6 +23,7 @@
 		939600112A3B8BF60023337E /* AmentiesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600102A3B8BF60023337E /* AmentiesCard.swift */; };
 		939600132A3B9A640023337E /* BigMainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600122A3B9A640023337E /* BigMainCard.swift */; };
 		93AF02822A53302200486DC3 /* AveragePropertyListCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AF02812A53302200486DC3 /* AveragePropertyListCard.swift */; };
+		93AF02852A533BF900486DC3 /* LargeInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AF02842A533BF900486DC3 /* LargeInputTextField.swift */; };
 		93D2871C2A265AEE00325143 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871B2A265AEE00325143 /* RadioButton.swift */; };
 		93D2871F2A265CB600325143 /* BigListOfValuesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871E2A265CB600325143 /* BigListOfValuesCard.swift */; };
 		93E49CF42A3C8E4200D2D7C2 /* BigVisitsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E49CF32A3C8E4200D2D7C2 /* BigVisitsCard.swift */; };
@@ -52,6 +53,7 @@
 		939600102A3B8BF60023337E /* AmentiesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmentiesCard.swift; sourceTree = "<group>"; };
 		939600122A3B9A640023337E /* BigMainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMainCard.swift; sourceTree = "<group>"; };
 		93AF02812A53302200486DC3 /* AveragePropertyListCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AveragePropertyListCard.swift; sourceTree = "<group>"; };
+		93AF02842A533BF900486DC3 /* LargeInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeInputTextField.swift; sourceTree = "<group>"; };
 		93D2871B2A265AEE00325143 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		93D2871E2A265CB600325143 /* BigListOfValuesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigListOfValuesCard.swift; sourceTree = "<group>"; };
 		93E49CF32A3C8E4200D2D7C2 /* BigVisitsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigVisitsCard.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		934835A32A1EAB2600FEA301 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				93AF02832A533BDB00486DC3 /* Inputs */,
 				9396000F2A3B8BA00023337E /* Informations */,
 				93D2871D2A265C7400325143 /* Cards */,
 				934835A02A1EAAC900FEA301 /* Buttons */,
@@ -210,6 +213,14 @@
 				93AF02812A53302200486DC3 /* AveragePropertyListCard.swift */,
 			);
 			path = Average;
+			sourceTree = "<group>";
+		};
+		93AF02832A533BDB00486DC3 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				93AF02842A533BF900486DC3 /* LargeInputTextField.swift */,
+			);
+			path = Inputs;
 			sourceTree = "<group>";
 		};
 		93D2871D2A265C7400325143 /* Cards */ = {
@@ -336,6 +347,7 @@
 				934835A22A1EAB1200FEA301 /* BigNormalButton.swift in Sources */,
 				934835A72A1EC24600FEA301 /* SmallNormalButton.swift in Sources */,
 				93ED64FC2A25138A00E6C29C /* IconsModel.swift in Sources */,
+				93AF02852A533BF900486DC3 /* LargeInputTextField.swift in Sources */,
 				934835902A1E868400FEA301 /* HabitaApp.swift in Sources */,
 				93ED65002A251EF000E6C29C /* FavoriteButton.swift in Sources */,
 				93ED65032A2527B200E6C29C /* CheckBoxButton.swift in Sources */,
