@@ -22,6 +22,7 @@
 		938E9ED22A4B5F2F00731AB9 /* SmallProposalsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938E9ED12A4B5F2F00731AB9 /* SmallProposalsCard.swift */; };
 		939600112A3B8BF60023337E /* AmentiesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600102A3B8BF60023337E /* AmentiesCard.swift */; };
 		939600132A3B9A640023337E /* BigMainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939600122A3B9A640023337E /* BigMainCard.swift */; };
+		93AF02822A53302200486DC3 /* AveragePropertyListCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AF02812A53302200486DC3 /* AveragePropertyListCard.swift */; };
 		93D2871C2A265AEE00325143 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871B2A265AEE00325143 /* RadioButton.swift */; };
 		93D2871F2A265CB600325143 /* BigListOfValuesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2871E2A265CB600325143 /* BigListOfValuesCard.swift */; };
 		93E49CF42A3C8E4200D2D7C2 /* BigVisitsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E49CF32A3C8E4200D2D7C2 /* BigVisitsCard.swift */; };
@@ -50,6 +51,7 @@
 		938E9ED12A4B5F2F00731AB9 /* SmallProposalsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallProposalsCard.swift; sourceTree = "<group>"; };
 		939600102A3B8BF60023337E /* AmentiesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmentiesCard.swift; sourceTree = "<group>"; };
 		939600122A3B9A640023337E /* BigMainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMainCard.swift; sourceTree = "<group>"; };
+		93AF02812A53302200486DC3 /* AveragePropertyListCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AveragePropertyListCard.swift; sourceTree = "<group>"; };
 		93D2871B2A265AEE00325143 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		93D2871E2A265CB600325143 /* BigListOfValuesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigListOfValuesCard.swift; sourceTree = "<group>"; };
 		93E49CF32A3C8E4200D2D7C2 /* BigVisitsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigVisitsCard.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 		93AF02802A532E5300486DC3 /* Average */ = {
 			isa = PBXGroup;
 			children = (
+				93AF02812A53302200486DC3 /* AveragePropertyListCard.swift */,
 			);
 			path = Average;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				93D2871F2A265CB600325143 /* BigListOfValuesCard.swift in Sources */,
 				934835A52A1EBD0100FEA301 /* MediumNormalButton.swift in Sources */,
 				932DB9F92A1FE25F00CA682E /* MediumOutlineButton.swift in Sources */,
+				93AF02822A53302200486DC3 /* AveragePropertyListCard.swift in Sources */,
 				938E9ED02A4B54FD00731AB9 /* BigFavoritesCard.swift in Sources */,
 				939600132A3B9A640023337E /* BigMainCard.swift in Sources */,
 				939600112A3B8BF60023337E /* AmentiesCard.swift in Sources */,
