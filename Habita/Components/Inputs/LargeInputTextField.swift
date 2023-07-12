@@ -9,8 +9,8 @@ import SwiftUI
 
 struct LargeInputTextField: View {
     
-    @State private var isInputEnabled = true
-    @State private var text: String = ""
+    @State private var isTextFieldActive = false
+    @State private var textFieldText = ""
     
     var body: some View {
         
@@ -19,33 +19,32 @@ struct LargeInputTextField: View {
             VStack(spacing: 0) {
                 VStack {
                     
-                    TextField("Digite algo", text: $text)
+                    TextField("Digite algo", text: $textFieldText)
                         .padding(.leading, 8)
                         .padding(.top, 16)
                         .padding(.bottom, 16)
                         .frame(width: UIScreen.main.bounds.width *  0.91, height: UIScreen.main.bounds.height * 0.075)
-                    
-                   
-                        .foregroundColor(isInputEnabled ?   Color("Black-1") : Color("Gray-0"))
-                        .onChange(of: text) { newValue in
-                            isInputEnabled = !newValue.isEmpty
+                        .foregroundColor(Color("Black-1"))
+                        .background(Color.white)
+                        .onChange(of: textFieldText) { _ in
+                            isTextFieldActive = !textFieldText.isEmpty
                         }
-
                     
                 }
                 .overlay(
                     RoundedRectangle(cornerRadius: 4)
-                        .stroke(Color("Black-1"), lineWidth: 1)
+                        .stroke(isTextFieldActive ? Color("Black-1") : Color("Gray-0"), lineWidth: 1)
                 )
             }
             
-            
         }
     }
-}
-
-struct LargeInputTextField_Previews: PreviewProvider {
-    static var previews: some View {
-        LargeInputTextField()
+    
+    
+    struct LargeInputTextField_Previews: PreviewProvider {
+        static var previews: some View {
+            LargeInputTextField()
+        }
     }
+    
 }
