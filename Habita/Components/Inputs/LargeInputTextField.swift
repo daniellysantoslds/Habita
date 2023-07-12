@@ -27,9 +27,12 @@ struct LargeInputTextField: View {
             VStack(alignment: .leading, spacing: 8) {
                 
                 Text(label)
+                    .font(.system(size: 16))
+                    .fontWeight(.medium)
+                    .foregroundColor(isTextFieldActive ? Color("Black-1") : Color("Gray-0"))
+                
                 VStack {
-                    
-                    TextField("Digite algo", text: $textFieldText)
+                    TextField("", text: $textFieldText)
                         .padding(.leading, 8)
                         .padding(.top, 16)
                         .padding(.bottom, 16)

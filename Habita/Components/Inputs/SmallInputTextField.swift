@@ -32,7 +32,7 @@ struct SmallInputTextField: View {
                 
                 VStack {
                     HStack {
-                        TextField("Digite algo", text: $textFieldText)
+                        TextField("", text: $textFieldText)
                             .font(.system(size: 14))
                             .fontWeight(.regular)
                         Text("m²")
