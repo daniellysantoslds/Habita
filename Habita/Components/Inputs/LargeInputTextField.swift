@@ -12,11 +12,21 @@ struct LargeInputTextField: View {
     @State private var isTextFieldActive = false
     @State private var textFieldText = ""
     
+    let label : String;
+    
+    init(isTextFieldActive: Bool = false, textFieldText: String = "", label: String) {
+        self.isTextFieldActive = isTextFieldActive
+        self.textFieldText = textFieldText
+        self.label = label
+    }
+    
     var body: some View {
         
         GeometryReader { geometry in
             
-            VStack(spacing: 0) {
+            VStack(alignment: .leading, spacing: 8) {
+                
+                Text(label)
                 VStack {
                     
                     TextField("Digite algo", text: $textFieldText)
@@ -43,7 +53,7 @@ struct LargeInputTextField: View {
     
     struct LargeInputTextField_Previews: PreviewProvider {
         static var previews: some View {
-            LargeInputTextField()
+            LargeInputTextField( label: "Nome compelto")
         }
     }
     
