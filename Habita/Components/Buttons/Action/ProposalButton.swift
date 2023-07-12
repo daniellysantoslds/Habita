@@ -59,7 +59,7 @@ struct ProposalButton: View {
             }
             Divider()
                 .padding(.top, 16)
-                .frame(width: 350)
+                .frame(width: UIScreen.main.bounds.width * 0.91)
         }
         
         
