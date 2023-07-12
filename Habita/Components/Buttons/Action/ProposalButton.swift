@@ -69,7 +69,7 @@ struct ProposalButton: View {
         static var previews: some View {
             ProposalButton(
                 iconCancel: Image.closeIcon(), titleCancelButton: "Remover dos favoritos", colorCancelButton: "Gray-0",
-                iconAction: Image.moneyIcon(), titleActionButton: "Fazer proposta", colorActionButton: "Primary-1")
+                iconAction: Image.dollarIcon(), titleActionButton: "Fazer proposta", colorActionButton: "Primary-1")
         }
     }
 }

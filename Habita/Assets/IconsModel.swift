@@ -27,7 +27,7 @@ extension Image {
     }
     
     //achar icone real desse icone
-    static func moneyIcon() -> Image {
+    static func dollarIcon() -> Image {
         Image(systemName: "dollarsign.circle")
     }
     
@@ -100,5 +100,4 @@ extension Image {
         Image(systemName: "iconName2")
     }
     
-    // Adicione mais métodos estáticos para cada ícone do seu aplicativo
 }

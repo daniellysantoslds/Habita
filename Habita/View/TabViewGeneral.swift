@@ -29,13 +29,13 @@ struct tabView: View {
             
             VisitsView()
                 .tabItem() {
-                    Image.calendarIcon()
+                    Image.bedIcon()
                     Text("Visitas")
                 }
             
             ProposalView()
                 .tabItem() {
-                    Image.moneyIcon()
+                    Image.dollarIcon()
                     Text("Propostas")
                 }
             
