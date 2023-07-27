@@ -36,7 +36,7 @@ struct LargeInputTextField: View {
                         .padding(.leading, 8)
                         .padding(.top, 16)
                         .padding(.bottom, 16)
-                        .frame(width: UIScreen.main.bounds.width *  0.91, height: UIScreen.main.bounds.height * 0.075)
+                        .frame(width: UIScreen.main.bounds.width *  0.91, height: UIScreen.main.bounds.height * 0.059)
                         .foregroundColor(Color("Black-1"))
                         .background(Color.white)
                         .onChange(of: textFieldText) { _ in
