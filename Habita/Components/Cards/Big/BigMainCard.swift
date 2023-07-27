@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BigMainCard: View {
     
-    let imageProperty: Image;
+    let imageProperty: String;
     let addressDescription: String;
     let spaceDescription: String;
     let roomDescription: String;
@@ -17,7 +17,7 @@ struct BigMainCard: View {
     let rentDescription: String;
     let totalValueDescription: String;
     
-    init(imageProperty: Image, addressDescription: String, spaceDescription: String, roomDescription: String, suitesDescription: String, rentDescription: String, totalValueDescription: String) {
+    init(imageProperty: String, addressDescription: String, spaceDescription: String, roomDescription: String, suitesDescription: String, rentDescription: String, totalValueDescription: String) {
         self.imageProperty = imageProperty
         self.addressDescription = addressDescription
         self.spaceDescription = spaceDescription
@@ -40,7 +40,7 @@ struct BigMainCard: View {
                 
                 VStack(alignment: .leading) {
                     
-                    Image("imov2")
+                    Image(imageProperty)
                         .resizable()
                         .frame(width: UIScreen.main.bounds.width * 0.91, height: UIScreen.main.bounds.height * 0.27)
                         .clipped()
@@ -97,7 +97,7 @@ struct BigMainCard: View {
     
     struct BigMainCard_Previews: PreviewProvider {
         static var previews: some View {
-            BigMainCard(imageProperty: Image("imov2"), addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
+            BigMainCard(imageProperty: "imov2", addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
         }
     }
 }

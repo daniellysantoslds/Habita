@@ -43,6 +43,7 @@ struct FavoriteButton: View {
     struct FavoriteButton_Previews: PreviewProvider {
         static var previews: some View {
             FavoriteButton()
+            
         }
     }
 }
