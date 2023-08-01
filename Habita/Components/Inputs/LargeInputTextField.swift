@@ -2,8 +2,10 @@
 //  LargeInputTextField.swift
 //  Habita
 //
-//  Created by Danielly Santos Lopes da Silva on 03/07/23.
+//  Created by Danielly Santos Lopes da Silva on 01/08/23.
 //
+
+import SwiftUI
 
 import SwiftUI
 
@@ -62,3 +64,4 @@ struct LargeInputTextField: View {
     }
     
 }
+
