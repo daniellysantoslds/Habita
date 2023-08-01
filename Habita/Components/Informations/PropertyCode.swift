@@ -19,15 +19,17 @@ struct PropertyCode: View {
     
     var body: some View {
         
-        
-        Text(codeID)
-            .font(.system(size: 12, weight: .regular))
-            .foregroundColor(Color("Primary-1"))
-            .background(.white)
-            .frame(width: 78, height: 25)
-            .border(Color("White+1"))
-            .cornerRadius(4)
-            .padding(4)
+        VStack {
+            Text(codeID)
+                .font(.system(size: 12, weight: .regular))
+                .foregroundColor(Color("Primary-1"))
+                .background(.white)
+                .frame(width: 78, height: 25)
+                .border(Color("White+1"))
+                .cornerRadius(4)
+        }
+        .padding(.leading, 0)
+       
     }
 }
 

@@ -80,8 +80,8 @@ struct BigListOfValuesCard: View {
             Divider()
             
         }
-        .padding(.leading, 16)
-        .padding(.trailing, 16)
+//        .padding(.leading, 16)
+//        .padding(.trailing, 16)
         
         
     }
