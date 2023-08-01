@@ -4,19 +4,27 @@ import SwiftUI
 
 struct SearchBar: View {
     @Binding var searchText: String
-    var placeholder: String = "Pesquisar"
+    var placeholder: String = ""
     
     var body: some View {
-        HStack {
-            Image.searchIcon()
-                .foregroundColor(Color("Black-1"))
-            TextField(placeholder, text: $searchText)
-                .foregroundColor(Color("Black-1"))
+        GeometryReader { geometry in
+            HStack {
+                Image.searchIcon()
+                    .foregroundColor(Color("Black-1"))
+                TextField(placeholder, text: $searchText)
+                    .foregroundColor(Color("Black-1"))
+                //resolving the problem: lowercased and uppercased in textfield
+                    .autocapitalization(.none)
+            }
+            .frame(width: UIScreen.main.bounds.width *  0.86, height: UIScreen.main.bounds.height * 0.05)
+            .padding(10)
+            .background(Color("Black-2"))
+            .cornerRadius(0)
         }
-        .padding(10)
-        .background(Color("Black-2"))
-        .cornerRadius(0)
+        
+        //.padding(.leading, 16)
     }
+    
 }
 
 struct SearchInput: View {
