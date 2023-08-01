@@ -9,13 +9,9 @@ import SwiftUI
 
 struct SearchView: View {
     var body: some View {
-        
         VStack {
-            
             VStack {
-                
                 SearchInput()
-                
                 
             }
             .padding(.trailing, 16)
@@ -58,8 +54,8 @@ struct SearchView: View {
         
         
     }
-        
-    }
+    
+}
 
 
 struct SearchView_Previews: PreviewProvider {
