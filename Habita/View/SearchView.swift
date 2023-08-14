@@ -11,11 +11,12 @@ struct SearchView: View {
     var body: some View {
         
         VStack {
-            VStack {
+            
                 SearchInput()
+               
                 
-            }
-            .padding(.trailing, 16)
+            
+            //.padding(.trailing, 16)
             .frame(height: 80)
             
             
@@ -59,10 +60,11 @@ struct SearchView: View {
             }
             
             .padding(.leading, 16)
-            //.padding(.trailing, -16)
+            .padding(.trailing, 16)
             
             
         }
+       
         
         
         

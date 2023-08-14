@@ -35,7 +35,7 @@ struct BigMainCard: View {
             ZStack {
                 Rectangle()
                     .foregroundColor(.white)
-                    .frame(width: UIScreen.main.bounds.width * 0.91, height: UIScreen.main.bounds.height * 0.44)
+                    .frame(width: geometry.size.width * 0.91, height: geometry.size.height * 0.47)
                 
                 
                 VStack(alignment: .leading) {

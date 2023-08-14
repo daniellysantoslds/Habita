@@ -13,7 +13,7 @@ struct SearchBar: View {
                     .foregroundColor(Color("Black-1"))
                 TextField(placeholder, text: $searchText)
                     .foregroundColor(Color("Black-1"))
-                //resolving the problem: lowercased and uppercased in textfield
+               
                     .autocapitalization(.none)
             }
             .frame(width: UIScreen.main.bounds.width *  0.86, height: UIScreen.main.bounds.height * 0.05)
