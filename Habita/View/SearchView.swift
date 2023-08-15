@@ -12,69 +12,39 @@ struct SearchView: View {
         
         VStack {
             
-                SearchInput()
-               
-                
+            SearchInput()
             
-            //.padding(.trailing, 16)
-            .frame(height: 80)
+            
+           
             
             
             ScrollView {
                 
-                VStack(alignment: .leading, spacing: 24) {
+                VStack(alignment: .leading) {
                     
-                    Button(action: {
-                        
-                        print("oi")
-                    }) {
-                        
-                        NavigationLink(destination: SelectdImovelView()) {
-                            BigMainCard(imageProperty: "imov2", addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
-                        }
-                    }
-                    
-                    
-                    Spacer(minLength: 340)
-                    
-                    BigMainCard(imageProperty: "imov1", addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
-                    
-                    Spacer(minLength: 340)
-                    
-                    BigMainCard(imageProperty: "imov3", addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
-                    
-                    Spacer(minLength: 340)
-                    
-                    BigMainCard(imageProperty: "imov4", addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
-                    
-                    Spacer(minLength: 340)
-                    
-                    BigMainCard(imageProperty: "imov5", addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
-                    
-                    Spacer(minLength: 340)
-                    
-                    
+                    BigMainCard(imageProperty: "imov2", addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
                     
                 }
+                .padding(.leading, 16)
                 
             }
             
-            .padding(.leading, 16)
-            .padding(.trailing, 16)
             
+           
             
         }
-       
+        
         
         
         
     }
     
-}
-
-
-struct SearchView_Previews: PreviewProvider {
-    static var previews: some View {
-        SearchView()
+    
+    
+    
+    struct SearchView_Previews: PreviewProvider {
+        static var previews: some View {
+            SearchView()
+        }
     }
 }
