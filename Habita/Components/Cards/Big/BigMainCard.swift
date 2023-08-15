@@ -36,12 +36,11 @@ struct BigMainCard: View {
                 ZStack {
                     Rectangle()
                         .foregroundColor(.white)
-                        .frame(width: geometry.size.width * 0.91, height: geometry.size.height * 0.50)
+                        .frame(width: UIScreen.main.bounds.width * 0.91, height: UIScreen.main.bounds.height * 0.45)
+                        .shadow(color: Color.black.opacity(0.3), radius: 5, x: 1, y: 1)
+                       
                     
-                    
-                    
-                    
-                    VStack(alignment: .leading) {
+               VStack(alignment: .leading) {
                         
                         Image(imageProperty)
                             .resizable()
@@ -96,7 +95,6 @@ struct BigMainCard: View {
                     
                 }
             }
-            .shadow(color: Color.pink.opacity(0.3), radius: 5, x: 0, y: 1)
           
            
         }

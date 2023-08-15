@@ -13,10 +13,7 @@ struct SearchView: View {
         VStack {
             
             SearchInput()
-            
-            
-           
-            
+  
             
             ScrollView {
                 
