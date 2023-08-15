@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct tabViewGeneral: View {
+struct TabViewGeneral: View {
     
     init() {
         let unselecrColor = UIColor(Color("Gray-1"))
@@ -54,8 +54,8 @@ struct tabViewGeneral: View {
     }
 }
 
-struct tabViewGeneral_Previews: PreviewProvider {
+struct TabViewGeneral_Previews: PreviewProvider {
     static var previews: some View {
-        tabViewGeneral()
+        TabViewGeneral()
     }
 }
