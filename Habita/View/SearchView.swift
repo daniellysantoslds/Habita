@@ -9,20 +9,26 @@ import SwiftUI
 
 struct SearchView: View {
     var body: some View {
-        NavigationView {
-            VStack(spacing: 60){
-                
-                SearchInput()
-                
+        
+        VStack(spacing: 60){
+            SearchInput()
+            NavigationView {
                 ScrollView() {
                     
                     VStack(alignment: .leading, spacing: 450) {
-                        NavigationLink {
-                            VisitsView()
-                        } label: {
+                        
+                        NavigationLink(destination: VisitsView()) {
                             BigMainCard(imageProperty: "imov2", addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
+    
                         }
+                        .buttonStyle(PlainButtonStyle()) 
 
+                        
+                        
+                        
+                        
+                        
+                        
                         
                         
                         BigMainCard(imageProperty: "imov2", addressDescription: "Rua glicerio 478, Graças", spaceDescription: "270m", roomDescription: "2 quartos", suitesDescription: "2 suítes", rentDescription: "Aluguel R$ 1.500", totalValueDescription: "Total R$ 2.000")
@@ -39,8 +45,9 @@ struct SearchView: View {
                 }
                 .layoutPriority(1)
                 .clipped()
-                
             }
+            
+            
             
         }
     }
