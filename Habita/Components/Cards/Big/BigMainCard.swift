@@ -33,10 +33,10 @@ struct BigMainCard: View {
         
         GeometryReader { geometry in
             VStack {
-                ZStack {
+                ZStack(alignment: .top) {
                     Rectangle()
                         .foregroundColor(.white)
-                        .frame(width: UIScreen.main.bounds.width * 0.91, height: UIScreen.main.bounds.height * 0.45)
+                        .frame(width: UIScreen.main.bounds.width * 0.91, height: UIScreen.main.bounds.height * 0.51)
                         .shadow(color: Color.black.opacity(0.3), radius: 5, x: 1, y: 1)
                        
                     

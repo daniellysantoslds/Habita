@@ -16,7 +16,7 @@ struct TabViewGeneral: View {
     
     var body: some View {
         TabView {
-            SearchView()
+            SearchView(addressDescription: "Alugar em Graças, Recife - PE, Brasil", numberOfProperties: "20 imóveis encontrados na região")
                 .tabItem() {
                     Image.searchIcon()
                     Text("Busca")
