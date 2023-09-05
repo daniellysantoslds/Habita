@@ -27,9 +27,10 @@ struct SelectdImovelView: View {
     let imageNames = ["imov1", "imov2", "imov3"]
     
     var body: some View {
-        
+       
         ScrollView {
             VStack(alignment: .leading) {
+                
                 
                 VStack {
                     ScrollView(.horizontal, showsIndicators: false) {
@@ -78,11 +79,12 @@ struct SelectdImovelView: View {
                 }
                 
                 Divider()
+               
                 
                     .padding(.bottom, 24)
-                
+               
                 VStack(alignment: .leading, spacing: 16) {
-                    
+                   
                     
                     Text("Proximidades")
                         .font(.system(size: 15, weight: .medium))
@@ -109,6 +111,7 @@ struct SelectdImovelView: View {
                         
                     }
                     
+                    
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Parques ou áreas verdes")
                             .font(.system(size: 12, weight: .medium))
@@ -116,19 +119,22 @@ struct SelectdImovelView: View {
                             .font(.system(size: 12, weight: .regular))
                         
                     }
+                
+                    
                     
                 }
-                
-                
-                
-                
+               
                 
             }
+          
+            
+            
             .padding(.leading, 16)
             .padding(.trailing, 16)
             
             Spacer()
         }
+        
         
     }
 }

@@ -22,7 +22,7 @@ struct BarWithMediumButtons: View {
             .padding(.top, 12)
             .padding(.bottom, 12)
             
-            .frame(width: geometry.size.width * 1, height: geometry.size.height * 0.2)
+            .frame(width: geometry.size.width * 1, height: geometry.size.height * 0.9)
             .background(.pink)
             
            
