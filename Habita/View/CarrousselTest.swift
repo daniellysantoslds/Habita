@@ -20,17 +20,19 @@ struct CarrousselTest: View {
                     HStack(spacing: 0) {
                         ForEach(imageNames, id: \.self) { imageName in
                             Image(imageName)
-                                .foregroundStyle(.white)
-                                .font(.largeTitle)
-                                .frame(width: UIScreen.main.bounds.width * 0.99, height: UIScreen.main.bounds.height * 0.5)
+                                .scaledToFill()
+                               
+                                .clipped()
                             
                         }
                     }
+                  
                     
                 }
                 
                 
             }
+          
         }
     }
     

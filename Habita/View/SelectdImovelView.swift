@@ -16,7 +16,6 @@ struct SelectdImovelView: View {
     let parksDescription: String;
     
     
-    
     init(immobileDescription: String, schoolsDescription: String, hospitalsDescription: String, parksDescription: String) {
         self.immobileDescription = immobileDescription
         self.schoolsDescription = schoolsDescription
@@ -25,10 +24,32 @@ struct SelectdImovelView: View {
         
     }
     
+    let imageNames = ["imov1", "imov2", "imov3"]
+    
     var body: some View {
         
         ScrollView {
             VStack(alignment: .leading) {
+                
+                VStack {
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 0) {
+                            ForEach(imageNames, id: \.self) { imageName in
+                                Image(imageName)
+                                    .scaledToFill()
+                                    .clipped()
+                                
+                            }
+                        }
+                        
+                        Spacer()
+                    }
+                    
+                    
+                }
+                .padding(.leading, -16)
+                .padding(.trailing, -16)
+                
                 
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Apartamento  com 2 quartos, 60 m²")
@@ -41,11 +62,11 @@ struct SelectdImovelView: View {
                 
                 PropertyCode(codeID: "COD. 299")
                 
-                .padding(.top, 8)
-                .padding(.bottom, 24)
+                    .padding(.top, 8)
+                    .padding(.bottom, 24)
                 BigListOfValuesCard(rentText: "Aluguel", condominiumText: "Condomínio", iptuText: "IPTU", totalText: "Total", rentValue: "R$1.200", condominiumValue: "R$ 600", iptuValue: "R$ 300", totalValue: "R$ 2.100")
                 
-                .padding(.bottom, 24)
+                    .padding(.bottom, 24)
                 AmentiesCard(roomIcon: Image.bedIcon(), bathroomIcon: Image.bathhubIcon(), spaceIcon: Image.helpIcon(), heightIcon: Image.triangleIcon(), roomDescription: "quartos", amountRoomDescription: "2", bathroomDescription: "banheiro", amountBathroomDescription: "1", spaceDescription: "m²", amountSpaceDescription: "60", heightDescription: "andar", amountHeightDescription: "3º")
                 
                     .padding(.bottom, 24)
@@ -105,6 +126,8 @@ struct SelectdImovelView: View {
             }
             .padding(.leading, 16)
             .padding(.trailing, 16)
+            
+            Spacer()
         }
         
     }
