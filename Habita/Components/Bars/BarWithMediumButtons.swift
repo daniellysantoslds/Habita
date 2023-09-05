@@ -10,9 +10,20 @@ import SwiftUI
 struct BarWithMediumButtons: View {
     var body: some View {
         
-        HStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GeometryReader { geometry in
+            HStack(spacing: 9) {
+              
+                MediumOutlineButton(titleButton: "String")
+                MediumNormalButton(titleButton: "Médio")
+               
+            }
+            .frame(width: UIScreen.main.bounds.width * 0.9, height: UIScreen.main.bounds.height * 0.1)
+            .background(.pink)
+            
         }
+        
+       
+        
        
     }
 }

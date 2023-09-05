@@ -18,29 +18,31 @@ struct MediumOutlineButton: View {
     
     var body: some View {
         
-        GeometryReader { geometry in
-            
-            Button {
-                print("printou")
-            } label: {
-                Text(titleButton)
-                    .fontWeight(.medium)
-                    .font(.system(size: 15))
-                    .foregroundColor(Color("Primary-0"))
-                    .frame(width: UIScreen.main.bounds.width * 0.43, height: UIScreen.main.bounds.height * 0.07 )
-                    .background(Color("White-0"))
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 4)
-                            .stroke(isHovered ? Color("Primary+1") :
-                                        Color("Primary-0")
-                                    , lineWidth: 1))
-                    .onTapGesture {
-                        withAnimation(.easeOut(duration: 0.2)) {
-                            isHovered.toggle()
+        VStack {
+            GeometryReader { geometry in
+                
+                Button {
+                    print("printou")
+                } label: {
+                    Text(titleButton)
+                        .fontWeight(.medium)
+                        .font(.system(size: 15))
+                        .foregroundColor(Color("Primary-0"))
+                        .frame(width: UIScreen.main.bounds.width * 0.43, height: UIScreen.main.bounds.height * 0.07 )
+                        .background(Color("White-0"))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 4)
+                                .stroke(isHovered ? Color("Primary+1") :
+                                            Color("Primary-0")
+                                        , lineWidth: 1))
+                        .onTapGesture {
+                            withAnimation(.easeOut(duration: 0.2)) {
+                                isHovered.toggle()
+                            }
                         }
-                    }
+                }
+                
             }
-            
         }
         
     }

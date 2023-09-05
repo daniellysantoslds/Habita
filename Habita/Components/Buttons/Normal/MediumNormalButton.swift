@@ -19,7 +19,7 @@ struct MediumNormalButton: View {
     var body: some View {
         
         VStack {
-            Spacer()
+          
             
             GeometryReader { geometry in
                 
@@ -42,8 +42,7 @@ struct MediumNormalButton: View {
                 }
                 
             }
-            
-            Spacer()
+             
             
         }
     }
