@@ -20,7 +20,7 @@ struct MediumNormalButton: View {
         
         VStack {
           
-            
+            Spacer()
             GeometryReader { geometry in
                 
                 Button {
@@ -43,7 +43,7 @@ struct MediumNormalButton: View {
                 
             }
              
-            
+            Spacer()
         }
     }
     

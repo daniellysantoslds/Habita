@@ -17,10 +17,12 @@ struct MediumOutlineButton: View {
     }
     
     var body: some View {
-        
         VStack {
+            
+            Spacer()
+            
             GeometryReader { geometry in
-                
+               
                 Button {
                     print("printou")
                 } label: {
@@ -43,7 +45,12 @@ struct MediumOutlineButton: View {
                 }
                 
             }
+            Spacer()
         }
+        //.background(.yellow)
+        
+       
+      
         
     }
 }
